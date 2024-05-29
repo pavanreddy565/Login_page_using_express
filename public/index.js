@@ -1,3 +1,6 @@
+
+
+
 let signup = document.querySelector(".signup");
 let login = document.querySelector(".login");
 let slider = document.querySelector(".slider");
@@ -10,6 +13,9 @@ signup.addEventListener("click", () => {
 
 login.addEventListener("click", () => {
     slider.classList.remove("moveslider");
+    
     formSection.classList.remove("form-section-move");
 });
+
+
 
